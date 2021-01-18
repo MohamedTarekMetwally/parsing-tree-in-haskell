@@ -24,7 +24,7 @@ in line 41 it's a special case if 1 number left unparsed
 after that we do have a case.. if it's not an operator. we will continue recusing till we find the next operator
 then when the recursion function is done the value gets back to the function which will be output.
 
-example
+Example
 2+5*3  ---> first we start by parsing the + alone
 (2)+(5*3) --> then we parse the 5*3 with it 
 (2)+((5)*(3)) -- then parse the 5 and 3 in the (5*3) to be ((5)*(3))
